@@ -12,7 +12,7 @@ The processed dataset is created from the raw nutrition datasets after applying 
 
 | File                       | Description                                                          |
 | -------------------------- | -------------------------------------------------------------------- |
-| `nutrition_dataset_v1.csv` | Cleaned and preprocessed nutrition dataset used for machine learning |
+| `processed_food_dataset.csv` | Cleaned and preprocessed nutrition dataset used for machine learning |
 
 ---
 
