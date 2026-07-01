@@ -1,19 +1,4 @@
-```python
-"""
-=========================================================
-AI Diet Recommendation System
-Data Preprocessing Pipeline
 
-Author : Hemnath KK
-Description:
-    This script loads the five raw nutrition datasets,
-    merges them, cleans the data, and exports a processed
-    dataset for machine learning.
-
-Output:
-    datasets/processed/nutrition_dataset_v1.csv
-=========================================================
-"""
 
 # =========================================================
 # Step 1 : Import Required Libraries
