@@ -386,8 +386,8 @@ python backend/app.py
 | Name | Role |
 |------|------|
 | **Karthik P** |  Project Lead & Backend Development |
-| **Hemnath K** | Data Engineering, Recommendation System & Machine Learning|
-| **Kavin Kumar S** | Frontend Development & System Integration |
+| **Hemnath K K** | Data Engineering, Recommendation System & Machine Learning|
+| **KavinKumar S** | Frontend Development & System Integration |
 
 ---
 
