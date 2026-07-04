@@ -381,19 +381,12 @@ python backend/app.py
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Author's
 
+**Karthik P**
 **Hemnath K**
+**KavinKumar S**
 
-B.Tech – Artificial Intelligence and Data Science
-
-Final Year Machine Learning Project
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
