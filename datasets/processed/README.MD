@@ -1,95 +1,43 @@
-# 📊 Processed Nutrition Dataset
+# Processed Datasets
 
-## Overview
+This folder contains cleaned and preprocessed datasets used by the AI Diet Recommendation System.
 
-This folder contains the processed nutrition dataset used for training and evaluating the machine learning models in the **AI-Based Personalized Diet Recommendation System**.
+## Files
 
-The processed dataset is created from the raw nutrition datasets after applying data preprocessing techniques.
+### processed_food_dataset.csv
 
----
+Description:
+- Combined from 5 raw food datasets
+- Removed duplicate records
+- Removed unnecessary columns
+- Handled missing values
+- Ready for machine learning
 
-# 📁 Dataset
-
-| File                       | Description                                                          |
-| -------------------------- | -------------------------------------------------------------------- |
-| `processed_food_dataset.csv` | Cleaned and preprocessed nutrition dataset used for machine learning |
-
----
-
-# 🎯 Purpose
-
-The processed dataset is used for:
-
-* Machine Learning Model Training
-* Feature Engineering
-* Model Evaluation
-* Nutrition Prediction
-* Food Recommendation Engine
+Rows: XXXXX
+Columns: XX
 
 ---
 
-# 🧹 Preprocessing Steps
+### processed_bodyfat_dataset.csv
 
-The following preprocessing operations were performed:
+Description:
+- Cleaned Body Fat dataset
+- No missing values
+- No duplicate records
+- Ready for BMI and health analysis
 
-* Merged five raw nutrition datasets
-* Removed unnecessary index columns
-* Removed duplicate records
-* Handled missing values
-* Standardized column names
-* Verified data types
-* Prepared features for machine learning
-
----
-
-# 📈 Dataset Information
-
-* Source: Five raw nutrition datasets
-* Format: CSV
-* Encoding: UTF-8
+Rows: 252
+Columns: 15
 
 ---
 
-# ⚠️ Important Notes
+### processed_health_dataset.csv
 
-* Do not manually edit this dataset.
-* Any preprocessing changes should be made in the preprocessing script.
-* Generate a new version (e.g., `nutrition_dataset_v2.csv`) when the preprocessing pipeline changes.
+Description:
+- Removed ID column
+- Encoded categorical variables
+- Cleaned missing values
+- Ready for health recommendation system
 
----
-
-# 🔄 Data Pipeline
-
-Raw Datasets
-
-↓
-
-Merge
-
-↓
-
-Data Cleaning
-
-↓
-
-Data Preprocessing
-
-↓
-
-Processed Dataset
-
-↓
-
-Machine Learning Model
-
-↓
-
-Food Recommendation System
-
----
-
-# 👨‍💻 Project
-
-AI-Based Personalized Diet Recommendation System using Machine Learning
-
-This processed dataset serves as the primary input for the machine learning pipeline.
+Rows: 4197
+Columns: 11
